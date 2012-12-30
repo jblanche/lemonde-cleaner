@@ -1,7 +1,7 @@
 {
   "name": "lemonde cleaner",
-  "version": "0.1",
-  "description": "Supprime les liens de conjugaison des articles du monde",
+  "version": "0.3",
+  "description": "Supprime les liens promotionnels des articles du monde",
   "icons": { "48": "icons/icon48.jpeg" },
   "permissions": [],
 
