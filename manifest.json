@@ -1,6 +1,6 @@
 {
   "name": "lemonde cleaner",
-  "version": "0.3",
+  "version": "0.4",
   "description": "Supprime les liens promotionnels des articles du monde",
   "icons": { "48": "icons/icon48.jpeg" },
   "permissions": [],
@@ -8,7 +8,7 @@
   "content_scripts": [
     {
       "matches": ["http://www.lemonde.fr/*"],
-      "js": ["lib/jquery.min.js", "src/lemonde-cleaner.js"]
+      "js": ["src/lemonde-cleaner.js"]
     }
   ]
 }

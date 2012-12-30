@@ -1,9 +1,8 @@
 /*global jQuery:true */
 
-jQuery('a[href*="conjugaison"]').replaceWith(function(){
-  return jQuery(this).text();
-});
-
-jQuery('a.lien_interne').replaceWith(function(){
-  return jQuery(this).text();
-});
+[].forEach.call(
+  document.querySelectorAll('a.lien_interne'),
+  function(el){
+    el.outerHTML = el.innerText;
+  }
+);
